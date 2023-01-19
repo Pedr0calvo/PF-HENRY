@@ -29,7 +29,7 @@ let sequelize =
         ssl: true,
       })
     : new Sequelize(
-        `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/art`,
+        `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB_NAME}`,
         { logging: false, native: false }
       );
 const basename = path.basename(__filename);
@@ -61,10 +61,11 @@ sequelize.models = Object.fromEntries(capsEntries);
 // En sequelize.models están todos los modelos importados como propiedades
 // Para relacionarlos hacemos un destructuring
 
-const { Artwork, Artist, User, Favourite, Cart, Artworkincart } = sequelize.models;
+const { Artwork, Artist, User, Favourite, Cart, Artworkincart } =
+  sequelize.models;
 // console.log(sequelize.models)
 // Aca vendrian las relaciones
-console.log(sequelize.models)
+console.log(sequelize.models);
 
 Cart.hasMany(Artworkincart);
 Artworkincart.belongsTo(Cart);
