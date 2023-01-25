@@ -69,4 +69,11 @@ As well can manage users the admin can create new users and ban users.
 
 And the admin can view all orders solds in the site.
 
-<img src="../client/assets/Orders.png"> </img>
+<img src="./assets/Orders.png"> </img>
+
+
+
+
+
+
+
