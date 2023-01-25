@@ -1,0 +1,229 @@
+.login {
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-width: 0px;
+    cursor: pointer;
+    line-height: 36px;
+    color: #000000;
+    float: right;
+    margin-right: 40px;
+    margin-top: 20px;
+    background-color: transparent;
+
+
+}
+
+.containerResetPw {
+    background-color: #DCB5B0;
+    align-content: center;
+    height: auto;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 900px;
+}
+
+.header {
+    background-color: rgba(255, 255, 255);
+    display: grid;
+    grid-template-columns: 100%;
+    height: 4rem;
+    align-content: center;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 0 30rem rgb(172, 168, 168);
+
+}
+
+.containerRegister {
+    background-color: #DCB5B0;
+    align-content: center;
+    min-height: 900px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.formContainer {
+    height: auto;
+    background-color: rgba(253, 253, 252, 0.7);
+    width: 320px;
+    border-radius: 5px;
+    padding: 20px 0;
+    box-shadow: 0 0 30rem rgb(203, 200, 200);
+    margin-top: 40px;
+
+}
+
+.logoForm {
+    font-family: 'Euphoria Script', cursive;
+    color: black;
+    cursor: pointer;
+    font-size: 3.2rem;
+    font-weight: 100;
+    border: none;
+    background-color: transparent;
+
+}
+
+.optForm {
+    margin: 10px;
+}
+
+
+
+.LoginMsg {
+    color: rgb(81, 70, 70);
+    font-weight: 100;
+    background-color: transparent;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    font-family: 'Merriweather', serif;
+}
+
+label {
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.optForm input {
+    height: 1.8rem;
+    border-radius: 2rem;
+    width: 12rem;
+    text-align: center;
+    border: 0;
+    border: 1px solid rgba(0, 0, 0, .1)
+}
+
+
+
+.buttonRegister {
+    background-color: rgb(138, 54, 54);
+    border-radius: 5px;
+    border-style: none;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 600;
+    font-weight: 500;
+    height: 2rem;
+    width: 8rem;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: 0.2rem auto;
+    transition: 0.3s;
+
+}
+
+.buttonRegister:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.buttonRegisterPos {
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    flex-flow: column;
+}
+
+.logInh2 {
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    color: white;
+    font-size: 22px;
+}
+
+.buttonGoogle {
+    background-color: rgb(138, 54, 54);
+    padding: 0.2rem;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.3rem;
+    width: 12rem;
+    position: relative;
+    top: 0.1rem;
+    border: 2px rgb(77, 77, 77);
+    margin-top: 0.3rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buttonGoogle:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+
+}
+
+.buttonGoogleText {
+    font-size: 0.9rem;
+    position: relative;
+    bottom: 0.2rem;
+}
+
+.Google {
+    position: relative;
+    top: 0.1rem;
+}
+
+.formPay {
+    background-color: white;
+    height: auto;
+    width: 300px;
+    margin: auto;
+    border-radius: 3px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 1px rgb(0 0 0 / 30%);
+
+}
+
+.formPayContainer {
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.btnReadyChangeAdress {
+    padding: 12px;
+    margin-top: 12px;
+    background-color: transparent;
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 3px;
+}
+
+.btnBuyAll {
+    background-color: transparent;
+    border-style: none;
+    color: rgba(101, 53, 53, 1);
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-size: 14px;
+    height: 40px;
+    width: auto;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+    margin-top: 19px;
+    padding: 12px;
+}

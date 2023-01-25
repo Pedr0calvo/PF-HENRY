@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #dcb5b0;
+}
+
+.header {
+  background-color: rgba(255, 255, 255);
+  display: grid;
+  grid-template-columns: 70% 23%;
+  height: 4rem;
+  align-content: center;
+
+  width: 100%;
+  box-shadow: 0 0 30rem rgb(200, 197, 197);
+}
+
+.content_login {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.buttonsLink {
+  width: 5rem;
+}
+
+.logins {
+  background-color: transparent;
+  border: 0;
+  font-size: 1.2rem;
+  color: #000000;
+  cursor: pointer;
+  font-family: "Merriweather", serif;
+  margin: 0 1rem;
+}
+
+.navLading {
+  position: absolute;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.aboutus {
+  font-style: normal;
+
+  font-size: 1.2rem;
+  margin-left: 10%;
+  border: none;
+  cursor: pointer;
+  color: #000000;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  font-family: "Merriweather", serif;
+  transition: 0.3s;
+}
+
+.aboutus:hover {
+  color: rgb(141, 93, 93);
+  transition: 0.3s;
+}
+
+.register {
+  font-family: "Merriweather", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  border-width: 0px;
+  cursor: pointer;
+  line-height: 36px;
+  float: right;
+  color: #e1bebe;
+  margin-right: 80px;
+  margin-top: 20px;
+  background-color: transparent;
+}
+
+.register:hover {
+  color: rgba(101, 53, 53, 1);
+}
+
+.contact {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.contactNumber {
+  grid-row: 1;
+}
+
+.visaMaster {
+  grid-column: 3/3;
+  grid-row: 1;
+}
+
+.iconsRedes {
+  grid-column: 2/3;
+  grid-row: 1;
+}
+
+.logoButton {
+  display: inline-grid;
+}
+
+.venus {
+  /* position: absolute; */
+  margin-top: 50px;
+  grid-column: 1/2;
+  grid-row: 1;
+  width: 630px;
+  height: 764px;
+  float: left;
+}
+
+.logoLink {
+  padding-top: 70%;
+  grid-column: 2/2;
+  grid-row: 1;
+}
+
+.goToGalery {
+  font-family: "Merriweather", serif;
+  font-style: normal;
+  font-weight: 800;
+  text-decoration: overline;
+  font-size: 55px;
+  border-width: 0px;
+  text-align: center;
+  cursor: pointer;
+  line-height: 36px;
+  background-color: transparent;
+  margin-top: 80px;
+  color: rgba(101, 53, 53, 1);
+}
+
+.goToGalery:hover {
+  opacity: 0.7;
+}
+
+.logo {
+  font-family: "Euphoria Script", cursive;
+  text-decoration-color: rgba(101, 53, 53, 1);
+  font-size: 200px;
+  font-weight: 400;
+  line-height: 51px;
+}
+
+.contactTittle {
+  font-family: "Euphoria Script", cursive;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 51px;
+  color: #000000;
+}
+
+@media (max-width: 800px) {
+  .venus {
+    display: none;
+  }
+  .logoLink {
+    /* display: none; */
+  }
+  .logoButton {
+    display: flex;
+    justify-content: center;
+  }
+  .contact {
+    position: absolute;
+    bottom: 0;
+  }
+  .contactTittle {
+    font-size: x-large;
+  }
+  .contactP {
+    font-size: xx-small;
+  }
+  .iconsRedes {
+    margin-bottom: 20%;
+    display: flex;
+    align-items: last baseline;
+  }
+  .visaMaster {
+    margin-bottom: 20%;
+    display: flex;
+    align-items: last baseline;
+  }
+
+  .iconsRedes img {
+    width: 30%;
+  }
+}
+
+@media (max-width: 476px) {
+  .venus {
+    display: none;
+  }
+  .logo {
+    font-size: 8em;
+  }
+  .logoLink {
+    /* display: none; */
+  }
+  .logoButton {
+    display: flex;
+    justify-content: center;
+  }
+  .contact {
+    position: absolute;
+    bottom: 0;
+  }
+  .contactTittle {
+    font-size: x-large;
+  }
+  .contactP {
+    font-size: xx-small;
+  }
+  .iconsRedes {
+    margin-bottom: 20%;
+    display: flex;
+    align-items: last baseline;
+  }
+  .visaMaster {
+    margin-bottom: 20%;
+    display: flex;
+    align-items: last baseline;
+  }
+
+  .iconsRedes img {
+    width: 30%;
+  }
+}

@@ -1,0 +1,26 @@
+.SearchBar {
+
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  padding: 0.5rem;
+  border-radius: 2rem;
+  border-width: 0.1rem;
+
+}
+
+.input1 {
+  font-size: 1.5rem;
+  background-color: transparent;
+  border: none;
+  margin-left: -2rem;
+
+}
+
+.input:focus {
+  border-width: 0px;
+}
